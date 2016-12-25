@@ -9,3 +9,6 @@ meteor remove ecmascript
 
 meteor npm install --save angular angular-meteor babel-runtime
 meteor add angular-templates pbastowski:angular-babel
+
+
+meteor remove angular-templates
