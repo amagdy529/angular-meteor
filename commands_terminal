@@ -1,0 +1,11 @@
+curl https://install.meteor.com/ | sh
+meteor create socially
+cd socially
+meteor
+
+
+meteor remove blaze-html-templates
+meteor remove ecmascript
+
+meteor npm install --save angular angular-meteor babel-runtime
+meteor add angular-templates pbastowski:angular-babel
